@@ -12,7 +12,7 @@ schedules:
 
 variables:
   keyRotationScript: '$(System.DefaultWorkingDirectory)/scripts/Set-AzureDevOpsKeyRotation.ps1'
-  serviceConnectionNameLUTS: 'LUTS'
+  serviceConnectionNameLUTS: 'uzair-DoSp'
 
 pool:
   vmImage: 'ubuntu-latest'
